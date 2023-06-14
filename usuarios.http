@@ -1,0 +1,18 @@
+POST http://localhost:3000/usuarios/api
+Context-Type: application/json
+
+{
+    "usuario":"miguel@gmail.com",
+    "clave":"123456",
+    "nombre":"Miguel Angel Chiu"
+}
+
+
+
+POST http://localhost:3000/auth/api/login
+Context-Type: application/json
+
+{
+    "usuario":"miguel@gmail.com",
+    "clave":"123456"
+}
